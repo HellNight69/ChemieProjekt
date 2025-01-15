@@ -1,0 +1,69 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+  }
+  
+  .scrolly-container {
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+  }
+  
+  .section {
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: opacity 1s ease-out;
+  }
+  
+  .section h2 {
+    font-size: 2rem;
+    color: #ffffff;
+  }
+  
+  .section p {
+    font-size: 30px;
+    color: #fffdff;
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  /* Specific background colors for each section */
+  .section1 {
+    background-color: #ffcccb;
+    background: url('Erdöl.png') no-repeat center center fixed;
+  background-size: cover;
+  }
+  
+  .section2 {
+    background-color: #add8e6;
+    background: url('Plank.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+
+  
+  .section3 {
+    background-color: #90ee90;
+    background: url('Faulschlamm.png') no-repeat center center fixed;
+  background-size: cover;
+  }
+  
+  .section4 {
+    background-color: #ffeb3b;
+    background: url('Erstehung..png') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  /*background-image: url('Faulschlamm.png');
